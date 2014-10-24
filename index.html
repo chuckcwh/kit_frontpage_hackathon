@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Kit HomePage</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap-theme.min.css">
+    <link rel="stylesheet" type="text/css" href="reset.min.css">
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <script src="//ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <script src="index.js"></script>
+
+  </head>
+
+<body>
+<!--navbar-->
+    <div class="navbar transparent navbar-fixed-top">
+        <nav class="navbar-inner" role="navigation">
+          <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+              <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1">
+                <span class="sr-only">Toggle navigation</span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+                <span class="icon-bar"></span>
+              </button>
+              <a class="navbar-brand" href="#">Link</a>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+              <ul class="nav navbar-nav">
+                <li class="active"><a href="#">Link</a></li>
+                <li><a href="#">Link</a></li>
+
+              </ul>
+              <ul class="nav navbar-nav navbar-right">
+                <li><a href="#">Link</a></li>
+                <li class="dropdown">
+                  <a href="#" class="dropdown-toggle" data-toggle="dropdown">log-in <span class="caret"></span></a>
+                  <ul class="dropdown-menu" role="menu">
+                    <li><a href="#">Action</a></li>
+                    <li><a href="#">Another action</a></li>
+                    <li><a href="#">Something else here</a></li>
+                    <li class="divider"></li>
+                    <li><a href="#">Separated link</a></li>
+                  </ul>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </nav>
+    </div>
+
+
+
+    <div class="row">
+        <div class="col-md-6 top_window" id="top_left"><p style="color: white; position: absolute; bottom: 10%;">
+            Kit is my go to tool for posting to Facebook.</p>
+        </div>
+        <div class="col-md-6 top_window" id="top_right">
+            <div class="container">
+                <p style="color: white; position: absolute; bottom: 10%; right: 0;">
+                Kit is a modern age CRM filled with easy to use features for your Business to succeed.
+                </p>
+            </div>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-md-3 top_window" id="down_left"><p style="color: white; position: absolute; bottom: 20%; right: 0;">
+            Kit provides 1 to 1 customer support to make sure your
+            experience using Kit is unforgettable.</p></div>
+        <div class="col-md-6">
+            <div>
+                <h1 style="margin-top: -30px;" align="center"><img style="width: 50px; height: 50px;" src="img/Kit-logo%20CALinnovates.jpg"> <p><i>in touch</i>i</p></h1>
+            </div>
+            <div id="down_center">
+                <div class="show" id="circle_top_left">Twitter</div>
+                <div class="show" id="circle_top_right">Ads</div>
+                <div class="show" id="circle_down_left">Kit<br>Crm</div>
+                <div class="show" id="circle_down_right">Facebook</div>
+            </div>
+
+        </div>
+        <div class="col-md-3 top_window" id="down_right"><p style="color: white; position: absolute; bottom: 20%; right: 0;">
+            Kit provides just what I need to do it myself</p></div>
+    </div>
+
+    <div class="row" style="height: 250px; margin-left: 20px; margin-right: 20px;" id="text_flyer">
+    </div>
+
+
+<!--carousel-->
+    <div id="carousel-example-generic" class="carousel slide" data-ride="carousel" style="height: 250px;">
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-generic" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="1"></li>
+        <li data-target="#carousel-example-generic" data-slide-to="2"></li>
+      </ol>
+
+      <div class="carousel-inner">
+        <div class="item active">
+          <div class="col-md-8"><img style="height: 250px;" src="img/windows_group_smile3.jpg" alt="First slide"></div>
+            <div class="col-md-4">
+                <p>Kit is my go to tool for posting to Facebook and Twitter. Instead of hiring a social media manager
+                    for my company, Kit provides just what I need to do it myself. This way, posts will stay genuine
+                    and from the heart, in my own words. Not only that, but I have learned so much more about my
+                    following through Kit. It is simple and incredibly user friendly.
+                </p>
+            </div>
+        </div>
+
+        <div class="item">
+          <div class="col-md-5">
+              <h2>Application Features Include</h2>
+              <ul>
+                 <li>Manage your Facebook Page. </li>
+                 <li>Manage your Twitter Account. </li>
+                 <li>Manage your Instagram Followers. </li>
+                 <li>Manage your Etsy Customers. </li>
+                 <li>Access your Top Fans, Followers and Paying Customers. </li>
+                 <li>Weekly Report Cards on Social Activity & Milestones. </li>
+                 <li>Run a Targeted Facebook Ad in 30 seconds. </li>
+              </ul>
+          </div>
+          <div class="col-md-5"><img style="height: 250px" src="img/windows_group_smile3.jpg" alt="Second slide"></div>
+        </div>
+
+        <div class="item">
+          <div class="col-md-3"></div>
+          <div class="col-md-5"><img style="height: 250px" src="img/windows_group_smile3.jpg" alt="Third slide"></div>
+        </div>
+
+      </div>
+
+      <!-- Controls -->
+      <a class="left carousel-control" href="#carousel-example-generic" role="button" data-slide="prev">
+        <span class="glyphicon glyphicon-chevron-left"></span>
+      </a>
+      <a class="right carousel-control" href="#carousel-example-generic" role="button" data-slide="next">
+        <span class="glyphicon glyphicon-chevron-right"></span>
+      </a>
+    </div>
+
+<!--footer-->
+    <div id="footer" style="height: 40px;">
+        <div class="container">
+            <span style="float:left;">This is footer</span>
+            <span style="float:right;">Kit Hackathon</span>
+        </div>
+    </div>
+</body>
+</html>
